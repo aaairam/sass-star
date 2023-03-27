@@ -154,6 +154,9 @@
                     border-style: solid;
                     border-width: 1px;
                     color: #fff;
+                    &:hover{
+                        background-color:#FFFFFF7F; 
+                    }
                 }
             }
         }
@@ -223,6 +226,10 @@
                     border-style: solid;
                     border-width: 1px;
                     color: #fff;
+
+                    &:hover{
+                        background-color: #FFFFFF7F;
+                    }
                     
                 }
                 img{
@@ -357,4 +364,28 @@
         }
     }
 
-    
+    .backtotop{
+        position: absolute;
+        right: 10rem;
+        bottom: 0;
+        position: fixed;
+        display: none;
+
+        &.show{
+            display: block;
+        }
+        a{
+            i{
+                font-size: 5rem;
+                color: #006241;
+                padding: 1.5rem 2rem;
+                border: 2px solid #1e3932;
+                background: $clr-light;
+                &:hover{
+                    color: #212121;
+                }
+            }
+        }
+    }
+
+
